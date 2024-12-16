@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCTU Project Archive System</title>
+    <link rel="stylesheet" href="archive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">GCTU Project Archive</div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#departments">Departments</a>
+            <a href="#submit">Submit Project</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="auth-buttons">
+            <button id="login">Login</button>
+            <button id="register">Register</button>
+        </div>
+    </header>
+
+    <!-- Search Bar Section -->
+    <section class="search-section">
+        <h1>Find Projects</h1>
+        <input type="text" id="search-bar" placeholder="Search by keywords...">
+        <button id="search-btn">Search</button>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <h2>Recent Projects</h2>
+        <div class="highlight-cards">
+            <div class="card">Project 1 - Computer Science</div>
+            <div class="card">Project 2 - Engineering</div>
+            <div class="card">Project 3 - Business</div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+        <h2>Dashboard</h2>
+        <div class="stats">
+            <div class="stat">Total Projects: <span id="total-projects">120</span></div>
+            <div class="stat">Latest Submission: <span id="latest-project">AI and ML in Healthcare</span></div>
+            <div class="stat">Departments: <span id="departments-count">5</span></div>
+        </div>
+        <button id="upload-project">Upload New Project</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 GCTU. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
